@@ -1,0 +1,17 @@
+{
+  "problemCategory": "forecasting_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "forecastingBaseHistory": {
+      "seriesIdField": "Series_Id",
+      "epochField": "Date",
+      "targetField": "Open"
+    }
+  },
+  "datasetSpecs": {
+    "forecastGranularity": "DAILY",
+    "forecastHorizonLength": 21,
+    "epochBoundary": 0,
+    "missingValueTag": "?"
+  }
+}
